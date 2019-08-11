@@ -33,5 +33,6 @@ if (hp<=0)
 {
 	obj_game.player_is_alive=false;
 	instance_destroy();
+	lives-=1;
 }
 coolddown = coolddown-1;

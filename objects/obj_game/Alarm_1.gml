@@ -1,6 +1,6 @@
 /// @description Asteroid Spawn
 // Puede escribir su código en este editor
-repeat (irandom_range(1,3))
+repeat (irandom_range(1,2))
 {
 	
 	ubi_x=choose(irandom_range(room_width,room_width+margen_x),irandom_range(0-margen_x,0));

@@ -14,3 +14,4 @@ else
 }
 
 draw_text_colour(vx+10, vy+50, "HP: "+string(hit_points), c_lime, c_lime, c_lime, c_lime, 1);
+draw_text_colour(vx+10, vy+90, "SCORE: "+string(thescore), c_lime, c_lime, c_lime, c_lime, 1);

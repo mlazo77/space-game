@@ -3,14 +3,26 @@
 
 if (asteroid_spawn)
 {
-	alarm[1]=irandom_range(30*4,30*6);
+	alarm[1]=irandom_range(30*5,30*10);
 	asteroid_spawn=false;
 }
 
 if (enemy_1_spawn)
 {
-	alarm[0]=irandom_range(30*1,30*5);
+	alarm[0]=irandom_range(30*5,30*7);
 	enemy_1_spawn=false;
+}
+
+if (enemy_2_spawn)
+{
+	alarm[4]=irandom_range(30*10,30*20);
+	enemy_2_spawn=false;
+}
+
+if (enemy_3_spawn)
+{
+	alarm[5]=irandom_range(30*20,30*30);
+	enemy_3_spawn=false;
 }
 
 if (!player_is_alive)
